@@ -8,3 +8,4 @@ items = inputs.split(',')
 
 # remove unwanted spaces in the items
 items.map! { |item| item.strip }
+
