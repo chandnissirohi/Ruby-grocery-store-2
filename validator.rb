@@ -1,5 +1,4 @@
 module Validation
-
     def self.validateInput(items)
         if items.empty?
             puts 'Please add items to the cart'
