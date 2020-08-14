@@ -1,5 +1,8 @@
+require_relative 'constant'
+
 module Validation
-    def self.validateInput(items)
+
+    def self.validate_input(items)
         if items.empty?
             puts 'Please add items to the cart'
             return false
